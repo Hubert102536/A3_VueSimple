@@ -1,0 +1,48 @@
+/*
+@TODO : Add styles here
+
+  Detals;
+  1. Add Merienda Google font
+
+*/
+
+.container
+{
+	border: solid blue;
+	box-sizing: border-box;
+	 position: absolute;
+	 width: 600px;
+}
+.containerr
+{
+	border: solid green;
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 300px;
+
+}
+.containerrr
+{
+	border: solid black;
+	box-sizing: border-box;
+   /* float: right;*/
+   position: absolute;
+   right: 290px;
+   top: 10px;
+	width: 300px;
+	align-items: center;
+
+}
+.fixed-header
+{
+	width: 100px;
+}
+.col-md-2
+{
+	float: right;
+}
+header
+{
+	position: center;
+}
+

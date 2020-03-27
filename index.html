@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <center><head><img src=images/calculator.png width="50" height="50"><span style="color:#2334CF"><b>I</b></span>deal <span style="color:#23CC1A"><b>W</b></span>eight  <span style="color:#D4DC0F"><b>C</b></span>alculator</head></center>
+
+
+    <meta charset="utf-8">
+    <title>I-W-C</title>
+
+  
+    <!-- @TODO : Add favicon -->
+
+    <!-- @TODO : Add bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- @TODO : Add fontawesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+    <!-- @TODO : Add local stylesheet -->
+     <link rel="stylesheet" href="css/style.css">
+
+
+  <body>
+
+    <!-- @TODO : Add markup
+
+      Details;
+      1. Bootstrap cards (https://getbootstrap.com/docs/4.4/components/card/)
+      2. Font awesome icons (calculator,user-alt,baby-carriage,mars-double,arrows-alt-v,thumbs-up,weight,exchange-alt and broom)
+      3. Bootstrap buttons (https://getbootstrap.com/docs/4.4/components/buttons/)
+      4. Bootstrap form inputs (https://getbootstrap.com/docs/4.4/components/forms/)
+      5. Google Fonts (Merienda)
+      6. HTML5 Validation
+      7. Bootstrap Tooltips
+    -->
+
+<style>
+  
+    .fixed-header{
+        width: 29%;
+             
+        background: #17a2b8;
+        color: #fff;
+    }
+    /*.container
+    {
+       width: 100px;
+       height: 100px;
+    }*/
+  </style>
+
+
+    <div class ="container">
+      <div class="fixed-header">User Details</div>
+
+    <div class="row">
+      <div class="col -md-8">
+
+    <div class="form-group">
+      <label for="name"><i class="fas fa-user"></i>Name:</label>
+        <input type="text" name="name" id="name" value="" class="form-control">
+      </div>
+       <div class="form-group">
+        <label for="age"><i class="fas fa-baby-carriage"></i>Age</label>
+        <input type="text" name="age" id="age" value="" class="form-control">
+      </div>
+      <!-- hubert kivuguti .cohdkisalojjjhsm.strathmore.edu {jhdue] -->
+       <div class="form-group">
+        <label for="age"><i class="fas fa-mars-double"></i>Gender</label>
+        <select name="Gender" id="Gender-select">
+          <option value="">--Please choose an option--</option>
+           <option value="Male">Male</option>
+            <option value="Female">Female</option>
+             <option value="Others">Others</option>
+           </select>
+      </div>
+       <div class="form-group">
+        <label for="Height"><i class="fas fa-text-height"></i>Height</label>
+        <input type="number" name="height" id="height" value="" class="form-control">
+      </div>
+      <button id="calculateBMI" class="btn btn-info" name="calculateBMI" type="button" name="calculate" onclick="calculate()"><i class="fas fa-thumbs-up"></i>Calulate </button>
+       <button id="clear" class="btn btn-warning" name="clear" type="button" name="button" onclick="clear()"><i class="fas fa-broom"></i>Clear </button>
+    </div>
+    </div>      
+    </div>
+
+
+   <div class ="containerr">
+      <div class="fixed-header">Result</div>
+      <div class="alert alert-sucess" role="alert">
+        <i class="fas fa-smile"></i>Results
+      </div>
+      <span id="results"></span>
+    </div>
+
+    <div class="row">
+      <div class="col -md-8">
+
+    <div class="form-group">
+      <label for="num1">.</label>
+        
+      </div>
+      
+      
+    
+    </div>      
+    </div>
+  </div>
+  <div class ="containerrr" >
+      <div class="fixed-header">Quick Links</div>
+
+    <div class="row">
+      <div class="col -md-8">
+
+    <div class="form-group">
+      <label for="num1">1. Calculator.net</label>
+        
+    </div>      
+    </div>
+  </div>
+</div><br>
+
+
+<div class="col-md-2">
+  <div class="alert alert-success" role="alert">
+    Results
+  </div>
+  <span id="results"></span>
+</div>
+
+    <!-- @TODO : Add jQuery -->
+
+    <!-- @TODO : Add Popper js -->
+
+    <!-- @TODO : Add bootstrap js-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" charset="utf-8"></script>
+
+    <!-- @TODO : Add font awesome js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" charset="utf-8"></script>
+
+    <!-- @TODO : Add VueJS(Development version) -->
+
+    <!-- @TODO : Add your script file -->
+
+     <script src="js/app.js" charset="utf-8"></script>
+
+  </body>
+</html>
