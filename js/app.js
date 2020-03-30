@@ -13,10 +13,10 @@
 function calculate()
 {
 	// alert('Enter the details correctly');
-	var number1 = document.getElementById('age').value;
+	//var number1 = document.getElementById('age').value;
 	var number1 = document.getElementById('height').value;
 
-	result= [50+((2.3*height)/5)];
+	result= 50+((2.3*number1)/5);
 	var result_span = document.getElementById('results');
 	result_span.innerHTML = result;
 }
